@@ -48,6 +48,7 @@
     "sequelize-hierarchy": "^2.0.4",
     "socket.io": "^4.5.3",
     "sqlite3": "^5.0.8",
+    "ts-node": "^10.9.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
@@ -67,7 +68,6 @@
     "@types/uuid": "^8.3.4",
     "mysql2": "^2.3.3",
     "sequelize-cli": "^6.4.1",
-    "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
   }
 }
