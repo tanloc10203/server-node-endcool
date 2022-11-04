@@ -2,5 +2,5 @@
   "version": 2,
   "name": "server-end-cool",
   "builds": [{ "src": "./index.ts", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/" }]
+  "routes": [{ "src": "/(.*)", "dest": "./index.ts" }]
 }
