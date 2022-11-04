@@ -2,12 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Rest API",
-  "main": "index.js",
+  "main": "index.ts",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start": "nodemon --config nodemon.json src/index.ts"
+    "start": "nodemon --config nodemon.json src/index.ts",
+    "build": "echo 'building...'"
   },
   "repository": {
     "type": "git",
